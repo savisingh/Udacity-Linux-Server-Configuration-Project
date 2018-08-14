@@ -8,9 +8,10 @@ SSH Port: 2200
 
 URL: http://13.232.212.122.xip.io/
   
-## Update the Server
+## Update and upgrade the Server
 ```
 sudo apt-get update
+sudo apt-get upgrade
 ```
 ## Create a grader user and give sudo access to grader
 ```
