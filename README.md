@@ -50,7 +50,7 @@ In lightsail console add port 2200 and 123 under the networking tab.
 #### Ports
 Then in light sail terminal
 ```
-•	sudo nano /etc/ssh/sshd_config (add port 2200, keep port 22)
+•	sudo nano /etc/ssh/sshd_config (add port 2200, keep port 22. Also change permitRootLogin from yes to no)
 •	sudo service sshd restart
 ```
 #### Firewalls
