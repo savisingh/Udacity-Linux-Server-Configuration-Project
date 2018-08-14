@@ -3,7 +3,9 @@
 README for running the Item Catalog web application live on a Linux Ubuntu server instance on Amazon Lightsail. 
 
 Public IP: 13.232.212.122
+
 SSH Port: 2200
+
 URL: http://13.232.212.122.xip.io/
   
 ## Update the Server
