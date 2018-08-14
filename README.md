@@ -4,7 +4,7 @@ README for running the Item Catalog web application live on a Linux Ubuntu serve
 
 Public IP: 13.232.212.122
 SSH Port: 2200
-
+URL: http://13.232.212.122.xip.io/
   
 ## Update the Server
 ```
@@ -13,7 +13,7 @@ sudo apt-get update
 ## Create a grader user and give sudo access to grader
 ```
 •	sudo adduser grader
-•	Give pasword as grader
+•	Give pasword 
    • Give full name as Grader and press enter the skip other fields
 •	sudo visudo
 	• add grader ALL=(ALL) ALL
@@ -24,7 +24,7 @@ In local machine:
 ```
 •	ssh-keygen
 •	Enter the file (gives /home/ubuntu/.ssh/id_rsa), I typed linuxProject /path-to-ssh-directory/.ssh/linuxServerProjectKey
-•	passphrase is linuxProject
+•	Give passphrase 
 •	cat .ssh/linuxServerProjectKey.pub
 •	Copy contents
 ```
